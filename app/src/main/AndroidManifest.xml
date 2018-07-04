@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="student.teacher.teachersutudentapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyTheme">
+        <activity
+            android:name=".activity.SplashScreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.Signup"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.LoginScreen"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".activity.ProfileScreen" />
+        <activity
+            android:name=".activity.DrawerActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".activity.ChatScreen"
+            android:windowSoftInputMode="stateHidden" />
+    </application>
+
+</manifest>
